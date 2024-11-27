@@ -137,7 +137,7 @@ footer .noticefooter p{
 
 /*-------- HERO ---------*/
 section.hero {
-  background-image: url("images/hero_mobile.jpg");
+  background-image: url("image/hero_mobile.jpg");
   background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -392,7 +392,7 @@ input[type="submit"]:hover {
 /*----------------------------------------*/
  /* LARGE HERO */
   section.hero {
-    background-image: url("images/hero_large.png");
+    background-image: url("image/hero_large.png");
     background-size: 100% 100%;
     /* min-height: 50vh; */
     background-size:100%; 
