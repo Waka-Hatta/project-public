@@ -230,13 +230,17 @@ th {
 /*----------------------------------------*/
 /*             Our Team page              */
 /*----------------------------------------*/
-.team h2{
-  text-align: center;
+.team h1{
+  font-family: "Playfair Display", serif; 
+  font-style: normal;
   font-size: 3.6rem;
   width:100%;
-  margin:auto;
+  font-weight:bold;
   color: var(--textsoft-color);
+  margin:auto;
+  text-align: center;
 }
+
 .team h3{
   margin-top: 0px;
   color: var(--text-color);
@@ -259,12 +263,15 @@ th {
 /*----------------------------------------*/
 /*           Contact Us page              */
 /*----------------------------------------*/
-.contactus h2{
-  text-align: center;
+.contactus h1{
+  font-family: "Playfair Display", serif; 
+  font-style: normal;
   font-size: 3.6rem;
   width:100%;
-  margin:auto;
+  font-weight:bold;
   color: var(--textsoft-color);
+  margin:auto;
+  text-align: center;
 }
 .contactus h3{
   color:var(--text-color);
