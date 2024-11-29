@@ -127,7 +127,7 @@ footer .sitefooter a, p{
 }
 footer .noticefooter p{
   margin:0;
-  color:var(--highlight2-color);
+  color:var(--text-color);
   font-size: 1.2rem;
 }
 
@@ -218,7 +218,7 @@ th {
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
-  background-color: var(--highlight2-color);
+  background-color: var(--highlight-color);
   color: var(--backhighlight-color);
 }
 .experiences tfoot td {
@@ -226,6 +226,7 @@ th {
   font-style: italic;
   text-align: center;
   background-color:var(--text-color);
+  color:var(--basetext-color);
 }
 
 /*----------------------------------------*/
