@@ -10,11 +10,12 @@ html {
 :root {
   --text-color: #ba9b65;
   --textsoft-color:#f4efdc;
+  --texthighlight-color:yellow;
   --highlight-color:#365fb7;
   --highlight2-color:#799ae0;
-  --basetext-color: #ffffff;
+  --basetext-color: white;
   --back-color: #133463;
-  --backhighlight-color: #ffffff;
+  --backhighlight-color: white;
 }
 
 body {
@@ -231,16 +232,11 @@ th {
 /*             Our Team page              */
 /*----------------------------------------*/
 .team h1{
-  font-family: "Playfair Display", serif; 
-  font-style: normal;
-  font-size: 3.6rem;
   width:100%;
   font-weight:bold;
-  color: var(--textsoft-color);
   margin:auto;
   text-align: center;
 }
-
 .team h3{
   margin-top: 0px;
   color: var(--text-color);
@@ -264,17 +260,10 @@ th {
 /*           Contact Us page              */
 /*----------------------------------------*/
 .contactus h1{
-  font-family: "Playfair Display", serif; 
-  font-style: normal;
-  font-size: 3.6rem;
   width:100%;
   font-weight:bold;
-  color: var(--textsoft-color);
   margin:auto;
   text-align: center;
-}
-.contactus h3{
-  color:var(--text-color);
 }
 .contactus p{
   font-size:1.6rem;
@@ -328,10 +317,10 @@ input[type="email"] {
 }
 .label-required {
   font-size: 1.4rem;
-  color: red;
+  color: var(--texthighlight-color);
 }
 input:required {
-  border: 1px solid red;
+  border: 1px solid var(--text-color);
 }
 input[type="reset"] {
   background-color:var(--text-color);
@@ -466,6 +455,9 @@ input[type="submit"]:hover {
   .team{
     width:95%;
   }
+  .team h1{
+    font-size: 5.4rem;
+  }
 
   .team .team_1 p{
     width:95%;
@@ -504,6 +496,9 @@ input[type="submit"]:hover {
   /*----------------------------------------*/
   /*             Contact Us page            */
   /*----------------------------------------*/ 
+  .contactus h1{
+    font-size: 5.4rem;
+  }
   .contactall{
     display:flex;
     flex-wrap:wrap;
