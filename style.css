@@ -224,7 +224,7 @@ th {
   font-style: italic;
   text-align: center;
   background-color:var(--text-color);
-  color:var(--basetext-color);
+  color:var(--back-color);
 }
 
 /*----------------------------------------*/
@@ -292,7 +292,7 @@ th {
 
 .contactform form{
   border-radius: 5px;
-  background-color:var(--highlight2-color);
+  background-color:var(--highlight-color);
   padding: 20px;
   width: 100%;
   margin: 0 auto;
@@ -327,28 +327,28 @@ input[type="email"] {
   resize: vertical;
 }
 .label-required {
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   color: red;
 }
 input:required {
   border: 1px solid red;
 }
 input[type="reset"] {
-  background-color:var(--textsoft-color);
-  color:var(--highlight2-color);
+  background-color:var(--text-color);
+  color:var(--back-color);
 }
 input[type="submit"] {
-  background-color:var(--highlight-color);
-  color:var(--basetext-color);
+  background-color:var(--textsoft-color);
+  color:var(--back-color);
 }
 input[type="reset"]:hover {
-  background-color:var(--highlight2-color);
-  color:var(--basetext-color);
+  background-color:var(--text-color);
+  color:var(--highlight-color);
   transform: scale(1.3,1.3);
 }
 input[type="submit"]:hover {
-  background-color: var(--backhighlight-color);
-  color:var(--back-color);
+  background-color:var(--textsoft-color);
+  color:var(--highlight-color);
   transform: scale(1.3,1.3);
 }
 
